@@ -1,0 +1,136 @@
+*{
+  overflow-x: hidden;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: white;
+  box-shadow: -9px -8px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 80px;
+  margin-right: 15px;
+}
+.logo span {
+  color: rgb(130, 130, 237);
+}
+#np{
+  margin: 0px;
+}
+.social-icons {
+  margin-top: 20px;
+}
+.social-icons a{
+  text-decoration: none;
+}
+
+.social-icons img {
+  width: 25px;
+  margin-left: 15px;
+}
+
+.social-icons img:hover {
+  cursor: pointer;
+  scale: 1.2;
+  transition: 0.5s all ease;
+  border-bottom: 5px solid white;
+}
+
+.container {
+  /* border: 1px solid black; */
+  margin: 40px;
+ border-radius: 15px;
+ box-shadow: 6px 8px 20px rgb(153, 153, 153);
+ /* padding: 30px; */
+ padding-bottom: 30px;
+ background-color: whitesmoke;
+}
+.container h1 span {
+  color: #3c59ff;
+}
+.container h1 {
+  text-align: center;
+  margin-top: 50px;
+  padding: 40px;
+  font-size: xx-large;
+
+}
+p span {
+  color: #d26b1d;
+}
+
+p {
+  margin: 40px;
+}
+
+
+h2 {
+  margin: 40px;
+ }
+
+ul li span{
+  color: #d26b1d;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f8ff;
+  margin-top: 8%;
+}
+
+footer p {
+  /* border-bottom: 1px solid rgb(168, 158, 158); */
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  margin: 0 auto;
+}
+.own p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media(max-width:768px){
+  .container {
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    margin: 10px;
+   border-radius: 15px;
+   box-shadow: 6px 8px 20px rgb(153, 153, 153);
+   /* padding: 30px; */
+   padding-bottom: 30px;
+   background-color: whitesmoke;
+  }
+  
+}
+@media(max-width:480px){
+  .container {
+    /* border: 1px solid black; */
+    /* margin-top: 30px; */
+    margin: 13px;
+   border-radius: 15px;
+   box-shadow: 6px 8px 20px rgb(153, 153, 153);
+   /* padding: 30px; */
+   padding-bottom: 20px;
+   background-color: whitesmoke;
+  }
+  
+}
